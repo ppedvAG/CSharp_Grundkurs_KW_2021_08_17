@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.exe
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.deps.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.runtimeconfig.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.runtimeconfig.dev.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\ref\Modul004_01_Arrays.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\bin\Debug\net5.0\Modul004_01_Arrays.pdb
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.AssemblyInfo.cs
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\ref\Modul004_01_Arrays.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.pdb
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul004_01_Arrays\obj\Debug\net5.0\Modul004_01_Arrays.genruntimeconfig.cache
