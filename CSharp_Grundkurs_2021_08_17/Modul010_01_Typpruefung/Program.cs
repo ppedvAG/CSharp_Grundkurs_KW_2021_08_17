@@ -63,7 +63,7 @@ namespace Modul010_01_Typpruefung
             //using System.Collections.Generic;
             List<Shape> geometrieCollections = new List<Shape>();
 
-            Rectangle rec = new ();
+            Rectangle rec = new() { x = 5, y = 6 };
             Circle circle = new (4);
             Sphere sphere = new Sphere(5);
 
@@ -79,6 +79,11 @@ namespace Modul010_01_Typpruefung
                 //cw + tab
                 Console.WriteLine("rec ist eine Shape");
             }
+
+            MusterabgleichMitSwitch(rec);
+            MusterabgleichMitSwitch(circle);
+            MusterabgleichMitSwitch(sphere);
+
         }
 
         //SWITCH PATTERN MATCHING
@@ -86,6 +91,7 @@ namespace Modul010_01_Typpruefung
         {
             switch (shape)
             {
+                //Type Checking with Casting + when-Condition
                 case Rectangle r when r.x == r.y:
                     Console.WriteLine("Ist ein Quatrat");
                     break;
@@ -99,6 +105,15 @@ namespace Modul010_01_Typpruefung
                     Console.WriteLine("Ist eine Kugel");
                     break;
             }
+        }
+
+        static void TypeChecking (object o)
+        {
+            if (o is null)
+                return;
+
+            if (o is int i) // checking and casting
+                Console.WriteLine(i);
         }
     }
 
