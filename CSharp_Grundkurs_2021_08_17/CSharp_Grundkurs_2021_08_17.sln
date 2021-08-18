@@ -48,6 +48,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_02_Zugriffsmodifiz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_01_Polymorphiesmus_Virtual", "Modul009_01_Polymorphiesmus_Virtual\Modul009_01_Polymorphiesmus_Virtual.csproj", "{2D3507E6-0B4D-4A22-AF61-774578C20848}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_02_Polymorphismus_Abstract", "Modul009_02_Polymorphismus_Abstract\Modul009_02_Polymorphismus_Abstract.csproj", "{9FC38765-744C-467E-9A74-8941D52F9B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul010_01_Typpruefung", "Modul010_01_Typpruefung\Modul010_01_Typpruefung.csproj", "{C90794FE-BF03-4602-B64C-C43BF24DB2FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -134,6 +138,14 @@ Global
 		{2D3507E6-0B4D-4A22-AF61-774578C20848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3507E6-0B4D-4A22-AF61-774578C20848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3507E6-0B4D-4A22-AF61-774578C20848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC38765-744C-467E-9A74-8941D52F9B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC38765-744C-467E-9A74-8941D52F9B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC38765-744C-467E-9A74-8941D52F9B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC38765-744C-467E-9A74-8941D52F9B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90794FE-BF03-4602-B64C-C43BF24DB2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90794FE-BF03-4602-B64C-C43BF24DB2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90794FE-BF03-4602-B64C-C43BF24DB2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90794FE-BF03-4602-B64C-C43BF24DB2FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
