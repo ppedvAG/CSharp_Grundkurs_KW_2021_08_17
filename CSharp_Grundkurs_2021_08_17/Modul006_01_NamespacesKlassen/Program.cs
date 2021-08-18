@@ -1,4 +1,4 @@
-﻿using First = Modul006_01_NamespacesKlassen.ErsteNamespace;
+﻿using First = Modul006_01_NamespacesKlassen.ErsteNamespace; //Definition von einem Namespace - Alias
 using Second = Modul006_01_NamespacesKlassen.ZweiterNamespace;
 using Modul006_01_NamespacesKlassen.DrittenNamespace;
 using System;

@@ -53,6 +53,11 @@ namespace Modul002_01_Datentypen
             #endregion
 
 
+            //Referenztypen: class, interface, string
+            //Wertetypen: int, float (alle Nummerischen und Gleitkomma-Datentypen) 
+
+
+
         }
     }
 }

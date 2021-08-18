@@ -13,6 +13,4 @@ namespace Modul006_01_NamespacesKlassen.DrittenNamespace
             return "Ich komme aus dem Namespace -> Modul006_01_NamespacesKlassen.ZweiterNamespace";
         }
     }
-
-    
 }

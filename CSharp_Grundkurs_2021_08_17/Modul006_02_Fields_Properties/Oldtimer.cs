@@ -17,6 +17,7 @@ namespace Modul006_02_Fields_Properties
         {
             marke = Marke;
         }
+
         public string GetMarke()
         {
             return marke;
@@ -28,6 +29,8 @@ namespace Modul006_02_Fields_Properties
         public int GetBaujahr()
             => baujahr; //wird als return baujahr aufgelöst 
 
+        //porp
+        public string NachrichtDesTages { get; set; }
 
         public void MotorStart()
         {
