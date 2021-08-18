@@ -9,7 +9,6 @@ namespace Modul006_02_Fields_Properties
             Oldtimer oldtimer = new Oldtimer();
 
             ElectroCar electroCar = new ElectroCar() { FeldMitStandartwert = "Hallo :-) ", Höchstgeschwindigkeit = 123 };
-
             electroCar.FeldMitStandartwert = "Nochmal Halli Hallo";
             //electroCar.Höchstgeschwindigkeit = 200; -> Compilier liefert hier einen Fehler
         }

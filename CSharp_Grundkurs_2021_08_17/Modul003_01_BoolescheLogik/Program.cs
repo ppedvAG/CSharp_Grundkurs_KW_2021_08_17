@@ -55,9 +55,33 @@ namespace Modul003_01_BoolescheLogik
             bool ergebnis18 = booleanWahr ^ booleanWahr; //false
             bool ergebnis19 = booleanFalsch ^ booleanFalsch; //false
 
+            /*    AND
+             *    Ausdruck1     |       Ausdruck2   |   Ausgabe
+             *    true          |       true        |   true
+             *    true          |       false       |   false
+             *    false         |       false       |   false
+             *   
+             *   OR
+             *   Ausdruck1      |       Ausdruck2   |   Ausgabe
+             *   true           |       true        |   true
+             *   true           |       false       |   true
+             *   false          |       true        |   true
+             *   false          |       false       |   false
+             *   
+             *   
+             *   XOR
+             *   Ausruck1       |       Ausdruck2   |   Ausgabe
+             *   true           |       true        |   true
+             *   true           |       false       |   false
+             *   false          |       true        |   false
+             *   false          |       false       |   true
+             *   
+
             //Negationsoperator (nicht)
             bool ergebnis20 = !booleanWahr;
             bool ergebnis21 = !booleanFalsch;
+
+
 
             
 
