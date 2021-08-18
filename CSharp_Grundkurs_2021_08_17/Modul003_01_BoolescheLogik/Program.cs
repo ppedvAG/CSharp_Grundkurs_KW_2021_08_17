@@ -75,7 +75,7 @@ namespace Modul003_01_BoolescheLogik
              *   true           |       false       |   false
              *   false          |       true        |   false
              *   false          |       false       |   true
-             *   
+             */
 
             //Negationsoperator (nicht)
             bool ergebnis20 = !booleanWahr;
