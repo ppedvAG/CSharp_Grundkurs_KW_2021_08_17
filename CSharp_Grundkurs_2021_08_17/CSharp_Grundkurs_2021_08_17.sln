@@ -21,6 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004_01_Arrays", "Modul
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5B19099-1F8F-4C30-BBF1-5D65F0BEAE61}"
 	ProjectSection(SolutionItems) = preProject
+		..\Agenda.md = ..\Agenda.md
 		Links_Referenzen.txt = Links_Referenzen.txt
 		VS-SHORTCUTS.md = VS-SHORTCUTS.md
 	EndProjectSection
@@ -56,6 +57,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_01_Interfaces", "Modul011_01_Interfaces\Modul011_01_Interfaces.csproj", "{C687A29F-A530-4D44-9C62-F003431B9652}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_02_InterfaceWithCSharp8", "Modul011_02_InterfaceWithCSharp8\Modul011_02_InterfaceWithCSharp8.csproj", "{04FB0EF8-C662-406A-9CAD-EB3C44E36D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_03_InterfacesWithCSharp8_Part2", "Modul011_03_InterfacesWithCSharp8_Part2\Modul011_03_InterfacesWithCSharp8_Part2.csproj", "{DB838DD9-4E17-4150-85FA-BDF602F5141C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiederholungTag2_VererbungVirtualAbstract", "WiederholungTag2_VererbungVirtualAbstract\WiederholungTag2_VererbungVirtualAbstract.csproj", "{9988F0E6-5808-4B4A-8AC4-20888D96155B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +164,14 @@ Global
 		{04FB0EF8-C662-406A-9CAD-EB3C44E36D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FB0EF8-C662-406A-9CAD-EB3C44E36D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04FB0EF8-C662-406A-9CAD-EB3C44E36D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB838DD9-4E17-4150-85FA-BDF602F5141C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB838DD9-4E17-4150-85FA-BDF602F5141C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB838DD9-4E17-4150-85FA-BDF602F5141C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB838DD9-4E17-4150-85FA-BDF602F5141C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9988F0E6-5808-4B4A-8AC4-20888D96155B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9988F0E6-5808-4B4A-8AC4-20888D96155B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9988F0E6-5808-4B4A-8AC4-20888D96155B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9988F0E6-5808-4B4A-8AC4-20888D96155B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

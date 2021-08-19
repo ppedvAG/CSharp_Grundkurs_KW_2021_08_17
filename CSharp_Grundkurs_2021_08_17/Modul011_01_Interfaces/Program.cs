@@ -1,12 +1,38 @@
 ﻿using System;
 
+
 namespace Modul011_01_Interfaces
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
+            #region Sample1
+            //SampleClass sample = new SampleClass();
+            //IControl control = sample;
+            //ISurface surface = sample;
+
+            //// The following lines all call the same method.
+            //sample.Paint();
+
+            //control.Paint();
+            //control.Print();
+
+            //surface.Paint();
+            //surface.Print();
+            #endregion
+
+            #region Sample2 - Explizit
+            SampleClass sample = new SampleClass();
+            IControl control = sample;
+            ISurface surface = sample;
+
+            // The following lines all call the same method.
+            //sample.Paint(); // Compiler error.
+            control.Paint();  // Calls IControl.Paint on SampleClass.
+            surface.Paint();  // Calls ISurface.Paint on SampleClass.
+            #endregion
         }
     }
 
@@ -77,6 +103,7 @@ namespace Modul011_01_Interfaces
     }
 
     #endregion
+
     #region Jahresmark Sample
 
     public interface IFSK16
@@ -122,7 +149,84 @@ namespace Modul011_01_Interfaces
 
     #endregion
 
+    #region Sample: Expliziete Interface Implementierung
+
+    public interface InterfaceA
+    {
+        void MyMethod();
+    }
+
+    public interface InterfaceB
+    {
+        void MyMethod();
+    }
+
+    public class MyClass : InterfaceA, InterfaceB
+    {
+        void InterfaceA.MyMethod()
+        {
+            throw new NotImplementedException();
+        }
+
+        void InterfaceB.MyMethod()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class MyProgrammCs
+    {
+        public void Main()
+        {
+            MyClass myClass = new();
+            InterfaceA myClass2 = new MyClass();
+
+        }
+    }
+    #endregion
 
 
+    #region Sample4
 
+
+    public interface IControl
+    {
+        void Paint();
+
+
+        void Print()
+        {
+            Console.WriteLine("IControl.Print");
+        }
+    }
+    public interface ISurface
+    {
+        void Paint();
+
+
+        void Print()
+        {
+            Console.WriteLine("ISurface.Print");
+        }
+    }
+    public class SampleClass : IControl, ISurface
+    {
+        // Both ISurface.Paint and IControl.Paint call this method.
+        //public void Paint()
+        //{
+        //    Console.WriteLine("Paint method in SampleClass");
+        //}
+
+
+        void IControl.Paint()
+        {
+            System.Console.WriteLine("IControl.Paint");
+        }
+        void ISurface.Paint()
+        {
+            System.Console.WriteLine("ISurface.Paint");
+        }
+    }
+
+    #endregion
 }

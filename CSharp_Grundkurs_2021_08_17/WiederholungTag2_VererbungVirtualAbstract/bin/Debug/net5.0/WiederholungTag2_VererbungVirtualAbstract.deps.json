@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WiederholungTag2_VererbungVirtualAbstract/1.0.0": {
+        "runtime": {
+          "WiederholungTag2_VererbungVirtualAbstract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WiederholungTag2_VererbungVirtualAbstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

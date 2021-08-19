@@ -12,7 +12,7 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 ## M001 | .NET GRUNDLAGEN
 - [ ] C# [Link](https://docs.microsoft.com/de-de/dotnet/csharp/)
 - [ ] .NET 4.8 [Link](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] Projekte und Projektmappen
+- [x] Projekte und Projektmappen
 - [ ] HelloWorld.cs [Link]
 - [ ] DemoConsole.cs [Link]
 - [ ] Startprojekt festlegen
@@ -65,6 +65,7 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] out [Link]
 - [ ] params [Link](Uebungen/Modul007_02_UeberlagerungParameter/SchluesselwortParams.cs) 
 - [ ] ref [Link](Uebungen/Modul007_02_UeberlagerungParameter/SchluesselwortRef.cs) 
+- [ ] in
 - [ ] Fragen [Link](Uebungen/Modul007_Fragen) 
 
 ## M008 | OOP - VERERBUNG und ZUGRIFFSMODIFIER
@@ -75,16 +76,17 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 
 ## M009 | OOP - POLYMORPHISMUS VIRTUAL
 - [ ] Polymorphismus
-- [ ] virtuelle Member [Link](Uebungen/Modul009_01_PolymorphismusVirtual/SchluesselwortOverride.cs) 
+- [ ] virtuelle Member/Properties [Link](Uebungen/Modul009_01_PolymorphismusVirtual/SchluesselwortOverride.cs) 
 - [ ] Member ausblenden [Link](Uebungen/Modul009_01_PolymorphismusVirtual/SchluesselwortNew.cs) 
 - [ ] Überschreibungen verhindern [Link](Uebungen/Modul009_01_PolymorphismusVirtual/SchluesselwortSealed.cs) 
 - [ ] Fragen [Link](Uebungen/Modul009_Fragen) 
 
 ## M010 | OOP - POLYMORPHISMUS ABSTRACT
-- [ ] abstrakte Member und Klassen [Link](Uebungen/Modul010_01_PolymorphismusAbstract/Program.cs) 
+- [ ] abstrakte Member, Properties  und Klassen [Link](Uebungen/Modul010_01_PolymorphismusAbstract/Program.cs) 
 - [ ] Typtest "GetType()" [Link](Uebungen/Modul010_02_Typpruefungen/Program.cs) 
 - [ ] Typtest "typeof" [Link](Uebungen/Modul010_02_Typpruefungen/Program.cs) 
 - [ ] Typtest "is" [Link](Uebungen/Modul010_02_Typpruefungen/Program.cs) 
+- [ ] Typ-Pattern Matching mit switch
 - [ ] Fragen [Link](Uebungen/Modul010_Fragen) 
 
 
@@ -114,9 +116,10 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 
 ## M015 | DATEIEN und VERZEICHNISSE (optional)
 - [ ] Dateien lesen/schreiben [Link](Uebungen/Modul015_01_Dateien_Verzeichnisse/MainWindow.xaml.cs)
-- [ ] Dateidialog [Link](Uebungen/Modul015_01_Dateien_Verzeichnisse/MainWindow.xaml.cs)
+- [ ] Serialisierung Binär 
 - [ ] JSON [Link](Uebungen/Modul015_02_JSON/Program.cs)
 - [ ] XML [Link](Uebungen/Modul015_03_XML/Program.cs)
+- [ ] CSV -> Erweiterungsmethoden 
 - [ ] Fragen [Link](Uebungen/Modul015_Fragen)
 
 
@@ -127,7 +130,6 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 ## M017 | ZUSÄTZLICHE THEMEN (optional)
 - [ ] Klassendiagramme
 - [ ] Deployment
-- [ ] .NET Framework/.NET Core/.NET 5
 
 
 ## M018 Async/Await - Pattern
