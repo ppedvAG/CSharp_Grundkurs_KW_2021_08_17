@@ -1,0 +1,16 @@
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.exe
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.deps.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.runtimeconfig.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.runtimeconfig.dev.json
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\ref\Modul012_01_Listen.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\bin\Debug\net5.0\Modul012_01_Listen.pdb
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.AssemblyInfo.cs
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\ref\Modul012_01_Listen.dll
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.pdb
+C:\Aktueller Kurs\CSharp_Grundkurs_KW_2021_08_17\CSharp_Grundkurs_2021_08_17\Modul012_01_Listen\obj\Debug\net5.0\Modul012_01_Listen.genruntimeconfig.cache

@@ -8,6 +8,13 @@ namespace Modul011_03_InterfacesWithCSharp8_Part2
         
         static void Main(string[] args)
         {
+
+            IBaseInterface myImplementationClass = new MyImplementationClass();
+            myImplementationClass.BaseInterfaceVirtualMethod();
+            
+            MyImplementationClass myImplementationClass1 = new();
+            myImplementationClass1.BaseInterfaceDefaultMethod();
+
             IBaseInterface _iBaseClass = new BaseClass();
             Console.WriteLine("\n\n ****** Base Class Method Invocation ******* \n");
             _iBaseClass.BaseInterfaceVirtualMethod();
@@ -16,6 +23,7 @@ namespace Modul011_03_InterfacesWithCSharp8_Part2
             IDerivedInterface _iDerivedClass = new DerivedClass();
             DerivedClass _DerivedClass = new DerivedClass();
             Console.WriteLine("\n\n ****** Derived Class Method Invocation ******* \n");
+            
             _iDerivedClass.BaseInterfaceVirtualMethod();
             _iDerivedClass.BaseInterfaceDefaultVirtualMethod();
             _iDerivedClass.DerivedInterfaecVirtualMethod();
@@ -39,6 +47,19 @@ namespace Modul011_03_InterfacesWithCSharp8_Part2
         public void BaseInterfaceDefaultMethod()
         {
             Console.WriteLine("This is Base Interface : BaseInterfaceDefaultMethod()");
+        }
+    }
+
+    public abstract class MyAbstractClass : IBaseInterface
+    {
+        public abstract void BaseInterfaceDefaultMethod();
+    }
+
+    public class MyImplementationClass : MyAbstractClass
+    {
+        public override void BaseInterfaceDefaultMethod()
+        {
+            Console.WriteLine("Ta Taaaa");
         }
     }
 
@@ -69,7 +90,6 @@ namespace Modul011_03_InterfacesWithCSharp8_Part2
             Console.WriteLine("This is Base Class : BaseInterfaceVirtualMethod() overridden");
         }
     }
-
 
     class DerivedClass : IDerivedInterface
     {

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KontoPin>1234</KontoPin>
+  <Vorname>Donald</Vorname>
+  <Nachname>Duck</Nachname>
+  <Alter>123</Alter>
+  <Kontostand>1000000</Kontostand>
+  <KreditLimit>10000000</KreditLimit>
+</Person>
