@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLamdaSamples.csproj",
-      "projectName": "Modul015_01_LinqLamdaSamples",
-      "projectPath": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLamdaSamples.csproj",
+      "projectUniqueName": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLambdaSamples.csproj",
+      "projectName": "Modul015_01_LinqLambdaSamples",
+      "projectPath": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLambdaSamples.csproj",
       "packagesPath": "C:\\Users\\kw4\\.nuget\\packages\\",
       "outputPath": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\obj\\",
       "projectStyle": "PackageReference",

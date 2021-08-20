@@ -28,7 +28,10 @@ namespace Modul014_03_EventAndEventHandler
 
         protected virtual void OnProcessCompleted(EventArgs e)
         {
-            //Invoke sender = this, EventArgs = e 
+            //Invoke nach ProcessBusinessLogic2_ProcessCompleted
+            //Parameter (Absenderinformation (object? sender) 
+            //EventArg -> Klasse ist ableitbar und kann dann Objekte/Informationen übertragen
+
             ProcessCompleted?.Invoke(this, e); //Program->ProcessBusinessLogic2_ProcessCompleted
         }
 

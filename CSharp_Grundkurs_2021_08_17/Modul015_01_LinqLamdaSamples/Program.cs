@@ -32,10 +32,17 @@ namespace Modul015_01_LinqLamdaSamples
                                                  select p).ToList();
 
 
-            //Ling-Functionen (where / orderby) Lambda-Expression -> p => p.Age >= 40 && p.Age < 50
+            //Linq-Functionen (where / orderby) mit Lambda-Expressions: p => p.Age >= 40 && p.Age < 50
             IList<Person> people = persons.Where(p => p.Age >= 40 && p.Age < 50)
                                           .OrderBy(o => o.Nachname)
+                                          .ThenBy(secondCriterium => secondCriterium.Vorname)
                                           .ToList();
+
+            IList<Person> people1 = persons.Where(p => p.Age >= 40 && p.Age < 50)
+                              .OrderByDescending(o => o.Nachname)
+                              .ThenBy(secondCriterium => secondCriterium.Vorname)
+                              .ToList();
+
 
             //result.Count
             if (people.Count > 0)

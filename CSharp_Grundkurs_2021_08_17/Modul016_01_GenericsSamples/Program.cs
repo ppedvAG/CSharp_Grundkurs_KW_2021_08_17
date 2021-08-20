@@ -17,7 +17,6 @@ namespace Modul016_01_GenericsSamples
 
 
             IDictionary<Guid, string> dict = new Dictionary<Guid, string>();
-
             dict.Add(new KeyValuePair<Guid, string>(Guid.NewGuid(), "Hallooooo :-)"));
 
 

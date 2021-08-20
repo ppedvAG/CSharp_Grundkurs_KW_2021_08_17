@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Modul019_02_RecordSample/1.0.0": {
+        "runtime": {
+          "Modul019_02_RecordSample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Modul019_02_RecordSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

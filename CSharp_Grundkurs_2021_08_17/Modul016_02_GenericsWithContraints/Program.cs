@@ -8,23 +8,15 @@ namespace Modul016_02_GenericsWithContraints
         
         static void Main(string[] args)
         {
-            ////DataStore<T> where T : class 
+            ////DataStore<T> where T : class //Referenz
 
             //DataStore<string> store1 = new DataStore<string>();
             //DataStore<MyClass> store2 = new DataStore<MyClass>();
-
             //DataStore<IMyInterface> store3 = new DataStore<IMyInterface>();
-
             //DataStore<MyStruct> store4 = new DataStore<MyStruct>(); 
-
             //DataStore<int> store5 = new DataStore<int>(); 
-
             //DataStore<ArrayList> store6 = new DataStore<ArrayList>();
-
             //DataStore<MyRecord> store7 = new DataStore<MyRecord>();
-
-
-
 
             //DataStore1<T> where T : struct 
             //DataStore1<string> store7 = new DataStore1<string>();

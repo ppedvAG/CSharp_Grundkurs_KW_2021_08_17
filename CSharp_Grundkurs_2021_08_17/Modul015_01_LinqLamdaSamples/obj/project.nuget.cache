@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SiS4NJRK95j6MeSXCUyfbORX8lYyHAZuZ40By8NqKqrBqYdx3giYuVvIuXGEacgcQrZ0LF/o0FDgH8LCT9v81Q==",
+  "dgSpecHash": "kDNXMxX8q5MuA+GqUqaJJe1vzXMJoYe549pp6UbK6UgGQbCJIYmwPx8ohmTk2fVG3reECAmvn5OeKPBtqGXXjA==",
   "success": true,
-  "projectFilePath": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLamdaSamples.csproj",
+  "projectFilePath": "C:\\Aktueller Kurs\\CSharp_Grundkurs_KW_2021_08_17\\CSharp_Grundkurs_2021_08_17\\Modul015_01_LinqLamdaSamples\\Modul015_01_LinqLambdaSamples.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
