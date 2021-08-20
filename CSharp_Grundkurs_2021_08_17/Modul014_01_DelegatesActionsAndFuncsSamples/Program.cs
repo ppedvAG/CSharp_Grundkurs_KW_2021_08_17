@@ -5,10 +5,12 @@ namespace Modul014_01_DelegatesActionsAndFuncsSamples
     //Typ NumbChange
     delegate int NumbChange(int n); //Dieses Gelegate kann mit Methoden arbeiten die diese Signatur -> int MethodeA (int)
     delegate int CalculatorDelegate(int zahl1, int zahl2);
-
     delegate void LikeAction(int n); 
 
     delegate void abc(int whatever);
+    
+    
+    
     class Program
     {
         static void Main(string[] args)
@@ -30,8 +32,9 @@ namespace Modul014_01_DelegatesActionsAndFuncsSamples
             int result3 = calculatorDelegate(11, 22);
             #endregion
 
+            // void Methodthe() 
+            Action a1 = new Action(A); 
 
-            Action a1 = new Action(A);
             a1(); //call Methode -> public static void A()
             a1 += B;
             a1();
@@ -39,11 +42,14 @@ namespace Modul014_01_DelegatesActionsAndFuncsSamples
             //Mit Delegate
             LikeAction likeAction = new LikeAction(C);
             likeAction(123);
-            //Mit Action 
+            //Mit Action
+            //
+
+            //void Methode (int)
             Action<int> actionWithOnParameter = new Action<int>(C);
             actionWithOnParameter(123);
 
-
+            //int Methode(int, int) -> in Func ist der letzte Datentyp in der Generic Definition -> Func<int, int, INT> er Rückgabewert
             Func<int, int, int> func = new Func<int, int, int>(Addition);
             int result5 = func(11, 22);
         }
@@ -66,7 +72,7 @@ namespace Modul014_01_DelegatesActionsAndFuncsSamples
 
         public static int AddNumber(int number)
         {
-            return number + 5;
+            return number + 5; //OffSet von 5
         }
 
         public static int SubNumber(int number)
